@@ -1,0 +1,39 @@
+<html><head></head><body><section class="slide">
+        <h2>Pictures</h2>
+        <div class="grid-6">
+          <figure>
+            <img class="grid-image" src="screens/screenshot0.jpeg">
+
+        </figure>
+          <figure>
+            <img class="grid-image" src="screens/screenshot1.jpeg">
+
+        </figure>
+          <figure>
+            <img class="grid-image" src="screens/screenshot2.jpeg">
+
+        </figure>
+          <figure>
+            <img class="grid-image" src="screens/screenshot3.jpeg">
+
+        </figure>
+</div>
+
+        <style>
+            .grid-6 {
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-column-gap: 20px;
+                margin: 0 20px;
+            }
+            .grid-6 figure {
+                width: 100%;
+                overflow: hidden;
+            }
+            .grid-6 figure img {
+                max-width: 100%;
+                overflow: hidden;
+            }
+        </style>
+    </section>
+    </body></html>

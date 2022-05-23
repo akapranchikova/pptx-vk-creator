@@ -1,0 +1,26 @@
+{
+  "name": "water",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --host=0.0.0.0 --https",
+    "build": "parcel build index.html --public-url './'"
+  },
+  "author": "alice",
+  "license": "MIT",
+  "devDependencies": {
+    "eruda": "^2.4.1",
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "fs": "0.0.1-security",
+    "html2canvas": "^1.4.1",
+    "pptxgenjs": "^3.10.0",
+    "puppeteer": "^14.1.0",
+    "request-promise": "^4.2.6"
+  }
+}
